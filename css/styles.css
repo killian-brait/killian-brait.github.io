@@ -4,7 +4,7 @@
 body {
     height: 100vh;
     margin: 0;
-    background: radial-gradient(circle 150px at center, #add8e6, #0000ff 60%);
+    background: radial-gradient(circle 150px at center, #96e4fe, #6969ff 60%);
     background-size: 200% 200%;
     transition: background-position 0.5s ease-out;
   }
