@@ -2,8 +2,9 @@
 
 // event listener for adjusting background gradient based on mouse position
 document.addEventListener('mousemove', function(e) {
-    const x = e.clientX; // mouse position on x-axis in pixels
-    const y = e.clientY; // mouse position on y-axis in pixels
-    document.body.style.backgroundPosition = `${x}px ${y}px`;
+    const x = (window.innerWidth - e.clientX) / window.innerWidth * 100;
+    const y = (window.innerHeight - e.clientY) / window.innerHeight * 100;
+    document.body.style.backgroundPosition = `${x}% ${y}%`;
   });
+  
   
