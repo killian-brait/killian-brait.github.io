@@ -1,0 +1,11 @@
+/* css/styles.css */
+
+/* Background Styles for HTML body elements */
+body {
+    height: 100vh;
+    margin: 0;
+    background: radial-gradient(circle 150px at center, #add8e6, #0000ff 60%);
+    background-size: 200% 200%;
+    transition: background-position 0.5s ease-out;
+  }
+  
