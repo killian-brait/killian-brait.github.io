@@ -1,8 +1,9 @@
 // snowpack.config.js
 module.exports = {
     mount: {
-        // The root directory serves as the public directory
-        '.': '/',
+        public: '/', // static files
+        css: '/css', // custom CSS
+        js: '/js', // custom scripting
     },
     plugins: [
         /* ... */
